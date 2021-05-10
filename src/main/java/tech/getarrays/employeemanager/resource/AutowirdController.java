@@ -48,17 +48,18 @@ public class AutowirdController {
 //        return animall.characteristics();
 //   }
 
+    // --------------------------------------------------------------
 
-   private Animal animal;
-
-   @Autowired
-    AutowirdController(@Qualifier("dog") Animal animal){
-     this.animal = animal;
-    }
-
-
-    @GetMapping
-    public String AutowiredByName(){
-        return animal.characteristics();
-    }
+//   private Animal animal;
+//
+//   @Autowired
+//    AutowirdController(@Qualifier("dog") Animal animal){
+//     this.animal = animal;
+//    }
+//
+//
+//    @GetMapping
+//    public String AutowiredByName(){
+//        return animal.characteristics();
+//    }
 }
