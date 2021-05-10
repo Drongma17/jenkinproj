@@ -15,14 +15,14 @@ public class AutowirdController {
 
 
 //--------------Autowired by Qualifier annotation ---------
-//    @Qualifier("cat")
-//    @Autowired
-//    private Animal animal;
-//
-//    @GetMapping
-//    public String FetchCharacteristic(){
-//        return animal.characteristics();
-//    }
+    @Qualifier("cat")
+    @Autowired
+    private Animal animal;
+
+    @GetMapping
+    public String FetchCharacteristic(){
+        return animal.characteristics();
+    }
 
 //----------------Autowired by Name------------------------------------------
 
